@@ -2,6 +2,9 @@ const express = require('express')
 
 const app = express()
 const hbs = require('hbs')
+
+const port = process.env.port || 3000
+
 hbs.registerPartials(__dirname + '/views/partials')
 
 //Express HBS engine
@@ -28,4 +31,4 @@ app.get('/about', (req, res) => {
 });
 
 
-app.listen(3000);
+app.listen(port);
