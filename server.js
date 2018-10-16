@@ -54,10 +54,4 @@ app.get('/about', (req, res) => {
 });
 
 
-//app.listen(port, () => console.log('Running'));
-
-const fs = require('fs')
-
-fs.readFile("pepe.json", (err) => {
-    console.log('pepe leido')
-})
+app.listen(port, () => console.log('Running'));
