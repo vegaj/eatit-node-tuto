@@ -2,8 +2,10 @@ footer {
     color: white;
     background-color: #343A40;
     width: 100%;
-    position: fixed;
-    bottom: 0px;
+    /*position: fixed;
+    bottom: 0px;*/
 }
 
-.featured-row {}
+.eatit-main {
+    background-color: #282E34 !important;
+}
