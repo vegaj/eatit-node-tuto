@@ -1,0 +1,12 @@
+{{> head}}
+{{> navbar}}
+
+<div class="container-fluid">
+    <div class="row">
+    {{#each products}}
+        {{> cardProduct this}}
+    {{/each}}
+    </div>
+</div>
+
+{{> footer}}

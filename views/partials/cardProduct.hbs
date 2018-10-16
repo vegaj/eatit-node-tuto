@@ -1,6 +1,7 @@
-<div class="container-fluid">
-    <img src={{ imgUrl }} class="img-thumbnail">
+<div class="col-lg-3 col-sm-4 mt-2">
+    <img src={{ fetchImage this.imgUrl }} 
+        class="img-fluid" style="max-width=250px; height: auto">
     <h3>{{ name }}</h3>
-    <p>{{ desc}}</p>
-    <button class="btn btn-success">{{ price }} <span class="glyphicon glyphicon-shopping-cart"></span></button>
-</div>
+    <p>{{ desc }}</p>
+    <button class="btn btn-success"><b>Comprar</b> {{ currency price }}</button>
+</div>  
