@@ -1,0 +1,12 @@
+{{>head}}
+{{> navbar }}
+<div class="panel">
+    <ul>
+        {{# each products}}
+            {{> cardProduct this}}
+        {{/each}}
+    </ul>
+</div>
+
+
+{{>footer}}
